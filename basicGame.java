@@ -23,7 +23,7 @@ public class basicGame {
         while (isRunning1) {
             // Storyline
             System.out.println("Are you ready? (yes/no)");
-            String userInput1 = sc1.nextLine();
+            String userInput1 = sc1.nextLine().toLowerCase();
             String yes = "yes";
             String no = "no";
             System.out.println("");
