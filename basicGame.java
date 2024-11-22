@@ -69,7 +69,7 @@ public class basicGame {
                                 System.out.println("");
                     
                                 if (userInput4.equals(ok)) {
-                                    System.out.println("You went back to where the 3 routes divereged.");
+                                    System.out.println("You went back to where the 3 routes diverged.");
                                     System.out.println("You only have 2 routes left to explore.");
                                     System.out.println("");
                                     System.out.println("Path #2: An old Hanging bridge that reaches the other side.");
