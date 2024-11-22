@@ -55,7 +55,7 @@ public class basicGame {
                         if (userInput3.equals(inventory)) {
                             System.out.println("Your inventory:");
                             System.out.println("- Sword");
-                            System.out.println("- Shielld");
+                            System.out.println("- Shield");
                             System.out.println("- Key");
                             System.out.println("");
                             
