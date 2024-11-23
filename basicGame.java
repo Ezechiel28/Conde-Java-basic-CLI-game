@@ -2,11 +2,10 @@ import java.util.Scanner;
 
 public class basicGame {
     public static void main (String[] args) {
-        // General initializations
         Scanner sc1 = new Scanner (System.in);
         boolean isRunning1 = true;
 
-        // Introduction
+        // Introduction (Lumod)
         System.out.println("Welcome to 'The Hero and the Princess;.");
         System.out.println("");
         System.out.println("What is your name young hero?");
@@ -19,7 +18,7 @@ public class basicGame {
         System.out.println("But be warned, you will have to fight dangerous monsters inside.");
         System.out.println("");
 
-        // Gameplay
+        // Gameplay (Conde) 
         while (isRunning1) {
             // Storyline
             System.out.println("Are you ready? (yes/no)");
@@ -28,6 +27,7 @@ public class basicGame {
             String no = "no";
             System.out.println("");
 
+            // (Cawas)
             if (userInput1.equals(yes)) {
                 // 3 routes
                 System.out.println("As you went deep inside the cavern, you encountered 3 different routes.");
@@ -87,6 +87,7 @@ public class basicGame {
                                         System.exit(0);
                                     }
 
+                                    // (Joseph)    
                                     else if (userInput5 == 3) {
                                         Scanner sc4 = new Scanner (System.in);
                                         String item1 = "sword";
@@ -100,6 +101,7 @@ public class basicGame {
                                         String userInput6 = sc4.nextLine().toLowerCase();
                                         System.out.println("");
 
+                                        
                                         if (userInput6.equals(item1)) {
                                             System.out.println("GAME OVER!");
                                             System.out.println("You picked the wrong tool.");
