@@ -47,11 +47,12 @@ public class basicGame {
 
                     System.out.println("You found a chest and you looted it.");
 
+                    (Thea)
                     while (isRunning2) {
                         System.out.println("Press 'i' to check inventory.");
                         String userInput3 = sc2.nextLine().toLowerCase();
                         System.out.println("");
-            
+
                         if (userInput3.equals(inventory)) {
                             System.out.println("Your inventory:");
                             System.out.println("- Sword");
